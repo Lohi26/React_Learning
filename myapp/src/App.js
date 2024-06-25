@@ -1,9 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Second from './Components/Second';
+import Starting from './Components/Starting';
+import ClassDemo from './Components/ClassDemo';
 function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <Starting/>
+      <Second/>
+      <ClassDemo/>
+    </div>
   );
 }
 
