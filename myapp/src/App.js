@@ -5,10 +5,11 @@ import ClassDemo from './Components/ClassDemo';
 import Jsx from './Components/Jsx';
 import PropsCreation from './Components/PropsCreation';
 import Increment from './Components/Increment';
+import StateClass from './Components/StateClass';
 function App() {
   return (
     <div>
-      <Starting/>
+      {/* <Starting/>
       <Second/>
       <ClassDemo/>
       <Jsx/>
@@ -17,7 +18,8 @@ function App() {
       <PropsCreation name='Padmavathi'/>
       <Increment>
         <button>Click</button>
-      </Increment>
+      </Increment> */}
+      <StateClass/>
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.App{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btn{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+}
