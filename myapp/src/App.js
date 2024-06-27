@@ -6,6 +6,7 @@ import Jsx from './Components/Jsx';
 import PropsCreation from './Components/PropsCreation';
 import Increment from './Components/Increment';
 import StateClass from './Components/StateClass';
+import Counter from './Components/Counter';
 function App() {
   return (
     <div>
@@ -19,7 +20,8 @@ function App() {
       <Increment>
         <button>Click</button>
       </Increment> */}
-      <StateClass/>
+      {/* <StateClass/> */}
+      <Counter/>
     </div>
   );
 }
